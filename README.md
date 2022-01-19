@@ -19,6 +19,10 @@ git init
 git remote add origin git@github.com:RejusCer/demo.git
 push -u origin master
 
+<b>GIT branch komandos</b>
+git branch [name]
+git checkout -b [name]
+
 <b>Kitos komandos:</b>
 status
 add .
