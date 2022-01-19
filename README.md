@@ -20,10 +20,13 @@ git remote add origin git@github.com:RejusCer/demo.git
 push -u origin master
 
 <b>GIT branch komandos</b>
-git branch [name]
-git checkout -b [name]
+git branch [name] {-d ištrinti šaką}
+git checkout -b [name] {-b sukurti šaką}
+git diff [su kuo lyginti]
+git push -u origin [branch]
+git pull
 
 <b>Kitos komandos:</b>
 status
-add .
-commit -m ""
+add . {arba atvirkštynis variantas} reset
+commit -m "" {arba atvirkštynis variantas} reset HEAD~1 {arba} reset HARD [commit kodas]
