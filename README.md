@@ -7,7 +7,7 @@ projektėlis skirtas darbui su github
 <b>Sukurti ssh raktą, pridėti ssh agent ir rakto pridėjimas prie projekto</b>  
 ssh-keygen -t rsa -b 4096 -C "email@email.com  
 [github'e irašyti nauja ssh raktą iklijuojant viešajo rakto kodą]  
-eval "$(ssh-agent -s)"  
+eval "$(ssh-agent -s)"   ---- windows power shell: Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 ssh-add ~/.ssh/{rakto vardas}  
 
 <b>Projekto paemimas iš github</b>  
