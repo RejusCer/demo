@@ -35,5 +35,5 @@ commit -m "" {arba atvirkštynis variantas} reset HEAD~1 {arba} reset HARD [comm
 git@github.com: Permission denied (publickey).
 fatal: Could not read from remote repository.
 
-ssh-agent -s
+ssh-agent -s <br>
 ssh-add /Users/Rejus/.ssh/kursinis_id
