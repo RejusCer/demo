@@ -30,3 +30,10 @@ git pull
 status  
 add . {arba atvirkštynis variantas} reset  
 commit -m "" {arba atvirkštynis variantas} reset HEAD~1 {arba} reset HARD [commit kodas]  
+
+
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+ssh-agent -s
+ssh-add /Users/Rejus/.ssh/kursinis_id
